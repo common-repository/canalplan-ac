@@ -1,0 +1,19 @@
+<?php
+
+#This allows administrators of Networked Blogs to set some installation wide configuration options.
+
+
+# This is the page slug that Canalplan AC will use to display the routes on. You should set this up on your base blog and ensure that all users create a page with the same name in their blogs.
+define ('CANALPLAN_ROUTE_SLUG','trips');
+
+/*
+ The following options allow you to override the url for the Canalplan Tile Server and the main Canalplan AC server
+ This allows you to basically have a self contained version running on a stand alone machine.
+*/
+# This allows you to change the url for the Canalplan Tile Server. 
+#define('MAPSERVER_BASE','map server url here');
+
+# This allows you to change the url for the main canalplan server. 
+#define('CANALPLAN_BASE', 'canalplan server url here');
+
+?>
